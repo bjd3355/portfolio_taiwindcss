@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jophret Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/portfolio_taiwindcss/assets/index-BIlFcHQw.js"></script>
+    <link rel="stylesheet" crossorigin href="/portfolio_taiwindcss/assets/index-HlmW-w3Y.css">
+  </head>
+  <body class="dark:text-gray-200 dark:bg-slate-900">
+    <header
+      class="fixed xl:block w-full py-4 lg:px-0 px-5 z-[999] duration-300"
+    >
+      <nav class="flex justify-between items-center max-w-6xl mx-auto px-2">
+        <div class="flex gap-4 items-center">
+          <div
+            class="bg-primary text-white rounded-full size-10 text-xl grid place-items-center"
+          >
+            J
+          </div>
+          <div>
+            <h4 class="font-bold text-lg uppercase">Jophret</h4>
+            <p class="text-xs">Mon Profil</p>
+          </div>
+        </div>
+        <ul class="gap-10 md:flex hidden hover:*:text-primary *:duration-200">
+          <li>
+            <a href="#home">Acceuil</a>
+          </li>
+          <li>
+            <a href="#about">A propos</a>
+          </li>
+          <li>
+            <a href="#parcours-scolaire">Scolarite et experiences</a>
+          </li>
+          <li>
+            <a href="#projects">Mes Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Me Contacter</a>
+          </li>
+          <li class="theme-switch">
+            <i class="fa-solid fa-circle-half-stroke cursor-pointer"></i>
+          </li>
+        </ul>
+        <div class="flex items-center gap-6">
+          <a href="#contact">
+            <button class="btn btn-outline md:!flex !hidden">
+              <i class="fa-regular fa-paper-plane"></i> Discutons
+            </button>
+          </a>
+          <span class="theme-switch md:hidden">
+            <i class="fa-solid fa-circle-half-stroke cursor-pointer"></i>
+          </span>
+          <span id="menubar" class="cursor-pointer md:hidden text-xl">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </div>
+      </nav>
+    </header>
+
+    <span id="backdrop"
+      class="fixed h-screen hidden bg-black/10 backdrop-blur-sm z-[997] inset-0 w-full"
+    ></span>
+
+    <ul id="mobile-nav"
+      class="gap-10 text-xl md:hidden dark:bg-slate-800 bg-primary text-white flex-center flex-col fixed w-full h-0 overflow-hidden bottom-0 duration-200 rounded-t-3xl left-0 z-[998]"
+    >
+      <li>
+        <a href="#home">Acceuil</a>
+      </li>
+      <li>
+        <a href="#about">A propos</a>
+      </li>
+      <li>
+        <a href="#parcours-scolaire">Scolarite et experiences</a>
+      </li>
+      <li>
+        <a href="#projects">Mes Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Me Contacter</a>
+      </li>
+      <a href="#contact">
+        <button class="btn btn-outline">
+          <i class="fa-regular fa-paper-plane"></i>Discutons
+        </button>
+      </a>
+    </ul>
+
+    <section id="home"    
+      class="min-h-screen container grid place-items-center relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-heroLight before:bg-no-repeat before:bg-top before:size-full before:-z-[1] before:transform before:-translate-x-1/2 dark:before:bg-heroDark"
+    >
+      <div
+        class="w-full pt-20 grid md:grid-cols-6 h-full items-center max-w-6xl justify-around"
+      >
+        <div
+          class="lg:col-span-2 sm:pl-2 md:col-span-3 md:text-left text-center"
+        >
+          <div>
+            <h5 class="font-medium text-gray-600 dark:text-gray-200">
+              Salut et Bienvenue
+            </h5>
+            <h1
+              class="sm:text-5xl text-4xl dark:text-white !leading-normal relative font-medium"
+            >
+              Je suis <span class="text-primary">Jophret</span> <br />
+              Developpeur Full Stack
+            </h1>
+            <button class="btn btn-filled mt-5">
+              <i class="fa-regular fa-envelope"></i><a href="#contact">Embaucher</a>
+            </button>
+            <button
+              class="font-semibold dark:text-gray-200 border-b-2 border-gray-700 ml-4"
+            >
+              <i class="fa-solid fa-up-right-from-square"></i><a href="#services">Voir mes services</a>
+            </button>
+          </div>
+          <div class="md:w-96 md:ml-auto flex mt-9 gap-2 dark:text-gray-300">
+            <i class="fa-solid fa-border-all mt-0.5 md:inline-block hidden"></i>
+            <p class="text-xs text-balance leading-5 max-w-md px-2 mx-auto">
+              Mon objectif est de construire un avenir où la technologie simplifie la vie de chacun, tout en perfectionnant mes compétences et en relevant des défis toujours plus passionnants.
+            </p>
+          </div>
+          <div
+            class="flex items-center md:justify-end justify-center dark:text-gray-200 text-gray-600 gap-6 mt-9"
+          >
+            <p class="text-xs">Me suivre</p>
+            <div class="flex justify-end gap-3">
+              <a href="https://github.com/bjd3355" class="social-icon">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/danicha-bakana-260388272/" class="social-icon">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://www.facebook.com/danicha.bakana.77/" class="social-icon">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="lg:col-span-2 md:col-span-3">
+          <img
+            src="/portfolio_taiwindcss/assets/person-BzeGQikj.png"
+            style="border: 2px solid #ccc; border-radius: 50%;"
+            class="w-2/3 mx-auto md:w-full max-w-96 md:mt-0 mt-5"
+            alt=""
+          />
+        </div>
+        <div
+          class="lg:col-span-2 md:col-span-6 lg:bg-gradient-to-l md:bg-none mt-2 bg-gradient-to-l dark:from-slate-800 from-gray-100 lg:h-96 md:h-auto h-96 w-full"
+        >
+          <ul
+            class="text-2xl data-[slot=count]:*:text-3xl data-[slot=count]:*:font-bold leading-[3.14rem] text-center pt-5 lg:block md:flex items-center justify-between"
+          >
+            <li data-slot="count">5+</li>
+            <li>D'année d'<span class="text-primary">Experience</span></li>
+            <br />
+            <li data-slot="count">25+</li>
+            <li>Projets <span class="text-primary">Reussi</span></li>
+            <li>
+              <a href="assets/CV Jophret BAKANA (2).pdf" download>
+                <button class="btn btn-outline lg:mt-10 md:mt-0 mt-10">
+                  <i class="fa-solid fa-download"></i> Télécharger CV
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container min-h-screen flex-center">
+      <div class="">
+        <div class="text-center text-balance">
+          <h3>Qui suis je</h3>
+          <p class="px-2 mt-3 text-gray-500 text-justify">
+            Ingénieur en informatique passionné par le développement web, la gestion de projets numériques et la science des données, je mets ma créativité et mes compétences au service de solutions innovantes. Originaire du Congo et actuellement basé au Sénégal, je m'inspire de la diversité culturelle et des défis technologiques pour développer des projets uniques.
+            Mon objectif est de construire un avenir où la technologie simplifie la vie de chacun, tout en perfectionnant mes compétences et en relevant des défis toujours plus passionnants.
+          </p>          
+        </div>
+        <div
+          class="max-w-2xl grid md:grid-cols-1 gap-6 px-2 sm:grid-cols-3 *:text-lg *:sm:max-w-full *:max-w-sm hover:*:brightness-90 *:mx-auto *:sm:text-left *:text-center *:hover:cursor-pointer *:shadow-sm mt-10 mx-auto *:rounded-xl *:bg-gray-100 *:dark:bg-slate-800 *:p-7 *:flex *:md:flex-row *:flex-col *:items-center *:gap-12"
+        >
+          <div>
+            <div class="*:text-primary">
+              <i class="fa-regular fa-object-ungroup"></i>
+              <h6 class="font-semibold whitespace-nowrap mt-3">
+                Website Design
+              </h6>
+            </div>
+            <div>
+              <p
+                class="text-xs text-gray-600 dark:text-gray-400 leading-5 text-balance"
+              >
+              créant des interfaces modernes et esthétiques pour offrir une expérience utilisateur fluide et engageante. Mon objectif est de concevoir des sites à la fois fonctionnels et visuellement attractifs, adaptés aux besoins des utilisateurs.
+              </p>
+            </div>
+            <i
+              class="fa-solid fa-arrow-up-long text-primary rotate-45 cursor-pointer"
+            ></i>
+          </div>
+          <div>
+            <div class="*:text-primary">
+              <i class="fa-solid fa-pen-nib"></i>
+              <h6 class="font-semibold whitespace-nowrap mt-3">Ui Ux Design</h6>
+            </div>
+            <div>
+              <p
+                class="text-xs text-gray-600 dark:text-gray-400 leading-5 text-balance"
+              >
+              créant des interfaces intuitives et esthétiques pour améliorer l'expérience utilisateur. Mon objectif est de concevoir des designs fonctionnels, modernes et engageants, en mettant l’accent sur l’ergonomie et l’accessibilité.
+              </p>
+            </div>
+            <i
+              class="fa-solid fa-arrow-up-long text-primary rotate-45 cursor-pointer"
+            ></i>
+          </div>
+          <div>
+            <div class="*:text-primary">
+              <i class="fa-solid fa-people-group"></i>
+              <h6 class="font-semibold whitespace-nowrap mt-3">Gestion de projet</h6>
+            </div>
+            <div>
+              <p
+                class="text-xs text-gray-600 dark:text-gray-400 leading-5 text-balance"
+              >
+              en coordonnant les différentes étapes du développement, de la conception à la mise en ligne. J'assure une organisation efficace en favorisant le travail d'équipe et en garantissant le respect des délais et des objectifs.
+              </p>
+            </div>
+            <i
+              class="fa-solid fa-arrow-up-long text-primary rotate-45 cursor-pointer"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mes Services -->
+    <section id="services" class="py-16">
+      <h2 class="text-4xl font-bold mb-8 text-center text-primary dark:text-primary-400">Mes Services</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+              <img src="/portfolio_taiwindcss/assets/monitorlayout_102173-CCtOHWNR.png" alt="Web Design" class="w-16 h-16 mx-auto mb-4"/>
+              <h3 class="text-2xl font-semibold text-primary-600 dark:text-primary-400">Web Design</h3>
+              <p class="mt-2 text-gray-600 dark:text-gray-300">Création de sites esthétiques et fonctionnels adaptés à vos besoins.</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+              <img src="/portfolio_taiwindcss/assets/digital_marketing_mobile_phone_bullhorn_icon_193863-BQ4AU6mh.png" alt="Marketing Digital" class="w-16 h-16 mx-auto mb-4"/>
+              <h3 class="text-2xl font-semibold text-primary-600 dark:text-primary-400">Marketing Digital</h3>
+              <p class="mt-2 text-gray-600 dark:text-gray-300">Stratégies efficaces pour augmenter la visibilité et l'engagement en ligne.</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+              <img src="/portfolio_taiwindcss/assets/search_engine_optimization_web_development_icon_260991-D7AdqwRq.png" alt="Développement Web" class="w-16 h-16 mx-auto mb-4"/>
+              <h3 class="text-2xl font-semibold text-primary-600 dark:text-primary-400">Développement Web</h3>
+              <p class="mt-2 text-gray-600 dark:text-gray-300">Développement de sites web performants et responsives.</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+              <img src="/portfolio_taiwindcss/assets/4137149-building-construction-industry-maintenance_114084-CZRuOhug.png" alt="Maintenance Informatique" class="w-16 h-16 mx-auto mb-4"/>
+              <h3 class="text-2xl font-semibold text-primary-600 dark:text-primary-400">Maintenance Informatique</h3>
+              <p class="mt-2 text-gray-600 dark:text-gray-300">Maintenance et réparation de systèmes pour assurer une performance optimale.</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+              <img src="/portfolio_taiwindcss/assets/insights_statistical_business_analytics_data_analysis_performance_metrics_icon_262973 (1)-DSkIeXZa.png" alt="Analyse de Données" class="w-16 h-16 mx-auto mb-4"/>
+              <h3 class="text-2xl font-semibold text-primary-600 dark:text-primary-400">Analyse de Données</h3>
+              <p class="mt-2 text-gray-600 dark:text-gray-300">Analyse approfondie pour une prise de décision basée sur les données.</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+              <img src="/portfolio_taiwindcss/assets/staff_management_icon_148356-Bc6vVT49.png" alt="Gestion de Projets" class="w-16 h-16 mx-auto mb-4"/>
+              <h3 class="text-2xl font-semibold text-primary-600 dark:text-primary-400">Gestion de Projets</h3>
+              <p class="mt-2 text-gray-600 dark:text-gray-300">Gestion complète des projets, de la planification à la livraison.</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+              <img src="/portfolio_taiwindcss/assets/management_leadership_administration_supervision_oversight_icon_262956-v9sL7zVv.png" alt="Administration Réseaux" class="w-16 h-16 mx-auto mb-4"/>
+              <h3 class="text-2xl font-semibold text-primary-600 dark:text-primary-400">Administration Réseaux</h3>
+              <p class="mt-2 text-gray-600 dark:text-gray-300">Gestion et sécurisation des infrastructures réseau.</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+              <img src="/portfolio_taiwindcss/assets/4544844-business-comerce-consultation-delivery-shop_121444-a6uEzg_G.png" alt="Consultation en Stratégie Digitale" class="w-16 h-16 mx-auto mb-4"/>
+              <h3 class="text-2xl font-semibold text-primary-600 dark:text-primary-400">Consultation en Stratégie Digitale</h3>
+              <p class="mt-2 text-gray-600 dark:text-gray-300">Accompagnement stratégique pour optimiser votre présence en ligne.</p>
+          </div>
+      </div>
+    </section>
+
+    <!-- Mon Parcours Scolaire -->
+    <section id="parcours-scolaire" class="py-16">
+      <h2 class="text-4xl font-bold mb-8 text-center text-primary-600 dark:text-primary-400">Mon Parcours Scolaire</h2>
+      <div class="max-w-3xl mx-auto">
+          <ul class="space-y-6">
+              <li class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                  <strong class="text-xl text-primary-800 dark:text-primary-100">2024 - 2025 | Univers-Professionel (Unipro), Sénégal</strong>
+                  <p class="text-gray-700 dark:text-gray-300">Licence 2 en Génie-Informatique (En cours)</p>
+              </li>
+              <li class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                <strong class="text-xl text-gray-800 dark:text-gray-100">2022 - 2023 | LinkedIn Learning</strong>
+                <p class="text-gray-700 dark:text-gray-300">Certificat certifié en Data Science</p>
+              </li>
+              <li class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                  <strong class="text-xl text-gray-800 dark:text-gray-100">2023 - 2024 | Univers-Professionel (Unipro), Sénégal</strong>
+                  <p class="text-gray-700 dark:text-gray-300">Licence 1 en Génie-Informatique</p>
+              </li>
+              <li class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                <strong class="text-xl text-gray-800 dark:text-gray-100">2022 - 2023 | C-Info, Congo-Brazzaville</strong>
+                <p class="text-gray-700 dark:text-gray-300">Formation en Cybersécurité</p>
+              </li>
+              <li class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                <strong class="text-xl text-gray-800 dark:text-gray-100">2021 - 2022 | Complexe Scolaire "Le JADE", Congo-Brazzaville</strong>
+                <p class="text-gray-700 dark:text-gray-300">Baccalauréat Série Scientifique (C)</p>
+              </li>
+          </ul>
+      </div>
+    </section>
+
+    <!-- Mes Expériences -->
+    <section id="experiences" class="py-16">
+      <h2 class="text-4xl font-bold mb-8 text-center text-primary-600 dark:text-primary-400">Mes Expériences</h2>
+      <div class="max-w-3xl mx-auto">
+          <ul class="space-y-6">
+              <li class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                  <strong class="text-xl text-gray-800 dark:text-gray-100">TGI (Tout en Génie Informatique) - 1mois | Stage en Développement Front-End</strong>
+                  <p class="text-gray-700 dark:text-gray-300">Création et optimisation de sites web responsives.</p>
+              </li>
+              <li class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                  <strong class="text-xl text-gray-800 dark:text-gray-100">SPIE, 1mois | Stage en Data Analysis</strong>
+                  <p class="text-gray-700 dark:text-gray-300">Analyse et visualisation des données pour des rapports stratégiques.</p>
+              </li>
+          </ul>
+      </div>
+    </section>
+
+
+
+    <!-- Mes Projets -->
+    <section id="projects" class="container min-h-screen flex-center">
+      <div class="text-center text-balance">
+        <h3>Mes Projets</h3>
+        <p class="px-2 mt-3 text-gray-500">
+          Je travaille sur divers projets alliant UI/UX Design, développement web et gestion de projet. 
+          Parmi eux, une plateforme de gestion des cours et emplois du temps, un site de streaming, un jeu interactif, ainsi qu’un site pour un restaurant à vendre. 
+          Mon objectif est de créer des solutions fonctionnelles et esthétiques adaptées aux besoins des utilisateurs.
+        </p>
+
+        <br />
+        <div class="flex justify-center gap-4 mb-6">
+          <button class="btn btn-filled filter-btn" data-filter="all">Tous</button>
+          <button class="btn btn-outline filter-btn" data-filter="site-web">Site web</button>
+          <button class="btn btn-outline filter-btn" data-filter="application">Application Web</button>
+          <button class="btn btn-outline filter-btn" data-filter="figma">Jeu</button>
+        </div>
+        
+        <!-- Conteneur des images -->
+        <div id="portfolio" class="grid mx-auto md:grid-rows-2 md:grid-cols-2 max-w-4xl md:px-0 px-10 gap-4">
+          <div class="relative group cursor-pointer image-item application">
+            <img src="/portfolio_taiwindcss/assets/portfolio1-D3OUBS2y.jpg" alt="Application 1" class="w-full h-auto rounded-lg" />
+            <div class="absolute inset-0 bg-black/70 flex items-center justify-center text-white text-lg p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Ce projet présente une application conçue pour offrir une navigation fluide et intuitive, avec un design moderne réalisé sous python. Elle intègre des fonctionnalités interactives pour optimiser l'expérience utilisateur.
+            </div>
+          </div>
+        
+          <div class="relative group cursor-pointer image-item figma row-span-2">
+            <img src="/portfolio_taiwindcss/assets/portfolio2-CrW3e1cz.jpg" alt="Site Web 1" class="w-full h-auto rounded-lg" />
+            <div class="absolute inset-0 bg-black/70 flex items-center justify-center text-white text-lg p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Ce projet présente un jeu de tir sur navigateur conçue pour offrir une navigation fluide et intuitive, avec un design moderne réalisé sous JavaSript. Elle intègre des fonctionnalités interactives pour optimiser l'expérience utilisateur.
+            </div>
+          </div>
+        
+          <div class="relative group cursor-pointer image-item application">
+            <img src="/portfolio_taiwindcss/assets/portfolio3-DAP2RkCS.jpg" alt="Figma 1" class="w-full h-auto rounded-lg" />
+            <div class="absolute inset-0 bg-black/70 flex items-center justify-center text-white text-lg p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Ce projet présente une platforme conçue pour offrir une navigation fluide et intuitive, avec un design moderne réalisé sous JavaSript. Elle intègre des fonctionnalités interactives pour optimiser l'expérience utilisateur.
+            </div>
+          </div>
+        
+          <div class="relative group cursor-pointer image-item site-web">
+            <img src="/portfolio_taiwindcss/assets/portfolio5-DhMfJpYs.jpg" alt="Site Web 2" class="w-full h-auto rounded-lg" />
+            <div class="absolute inset-0 bg-black/70 flex items-center justify-center text-white text-lg p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Ce projet présente un site Web de restaurant fonctionnelle conçue pour offrir une navigation fluide et intuitive, avec un design moderne réalisé sous WordPress. Elle intègre des fonctionnalités interactives pour optimiser l'expérience utilisateur.
+            </div>
+          </div>
+        
+          <div class="relative group cursor-pointer image-item site-web">
+            <img src="/portfolio_taiwindcss/assets/portfolio4-CAAJgnCN.jpg" alt="Application 2" class="w-full h-auto rounded-lg" />
+            <div class="absolute inset-0 bg-black/70 flex items-center justify-center text-white text-lg p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Ce projet présente un site web conçue pour offrir une navigation fluide et intuitive, avec un design moderne réalisé sous HTML/CSS. Elle intègre des fonctionnalités interactives pour optimiser l'expérience utilisateur.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mes Skills -->
+    <section id="skills">
+      <h2 class="text-3xl font-bold mb-6 text-center">Mes Skills</h2>
+      <div class="flex flex-wrap gap-6 justify-center items-center">
+          <div class="flex flex-col items-center">
+              <img src="/portfolio_taiwindcss/assets/htmlcss-BDuxJMao.png" alt="HTML" class="w-12 h-12 mb-2"/>
+              <span class="bg-blue-500 px-4 py-2 rounded-full text-white">HTM/CSS</span>
+          </div>
+          <div class="flex flex-col items-center">
+              <img src="/portfolio_taiwindcss/assets/Java-BPzxIyA_.png" alt="CSS" class="w-12 h-12 mb-2"/>
+              <span class="bg-blue-500 px-4 py-2 rounded-full text-white">Java</span>
+          </div>
+          <div class="flex flex-col items-center">
+              <img src="/portfolio_taiwindcss/assets/Python-B5HzG9ud.png" alt="Tailwind CSS" class="w-12 h-12 mb-2"/>
+              <span class="bg-blue-500 px-4 py-2 rounded-full text-white">Python</span>
+          </div>
+          <div class="flex flex-col items-center">
+              <img src="/portfolio_taiwindcss/assets/Javascript-736400_960_720-ceZap6XI.png" alt="JavaScript" class="w-12 h-12 mb-2"/>
+              <span class="bg-blue-500 px-4 py-2 rounded-full text-white">JavaScript</span>
+          </div>
+          <div class="flex flex-col items-center">
+              <img src="/portfolio_taiwindcss/assets/react-CupmICav.png" alt="React" class="w-12 h-12 mb-2"/>
+              <span class="bg-blue-500 px-4 py-2 rounded-full text-white">React</span>
+          </div>
+          <div class="flex flex-col items-center">
+              <img src="/portfolio_taiwindcss/assets/wordpress-x0IwDS10.png" alt="TypeScript" class="w-12 h-12 mb-2"/>
+              <span class="bg-blue-500 px-4 py-2 rounded-full text-white">Wordpress</span>
+          </div>
+          <div class="flex flex-col items-center">
+              <img src="/portfolio_taiwindcss/assets/PHP-DFyCJbPo.png" alt="PHP" class="w-12 h-12 mb-2"/>
+              <span class="bg-blue-500 px-4 py-2 rounded-full text-white">PHP</span>
+          </div>
+          <div class="flex flex-col items-center">
+              <img src="/portfolio_taiwindcss/assets/MySQL-CphLmVop.png" alt="MySQL" class="w-12 h-12 mb-2"/>
+              <span class="bg-blue-500 px-4 py-2 rounded-full text-white">MySQL</span>
+          </div>
+      </div>
+    </section>
+
+    <section id="contact"
+      class="container relative max-w-4xl mx-auto min-h-screen flex-center px-5"
+    >
+      <div class="pb-10">
+        <div class="text-center">
+          <h3>Me Contacter</h3>
+          <p class="px-2 mt-3 text-gray-500">
+            Besoin d’un expert pour concrétiser vos projets ? Que ce soit pour la création d’un site web, l’optimisation de votre présence en ligne, ou le développement d’applications performantes, je suis à votre disposition pour vous accompagner. N’hésitez pas à me contacter dès maintenant pour discuter de vos besoins et trouver ensemble la meilleure solution !
+          </p>
+        </div>
+        <div
+          class="mt-12 md:relative flex flex-col gap-5 sm:max-w-full mx-auto max-w-xs"
+        >
+          <div
+            class="dark:bg-slate-800 bg-slate-50 dark:text-gray-100 text-gray-800 rounded-lg shadow-xl mx-auto md:w-2/3 py-14 px-7 w-full"
+          >
+            <h3 class="font-semibold text-3xl">
+              M'envoyer un <br /><span class="text-primary">Message</span>
+            </h3>
+            <form class="*:flex *:flex-col *:gap-1 mt-5 md:w-2/3 w-full">
+              <div class="">
+                <label for="name">Nom</label>
+                <input type="text" id="name" placeholder="Votre nom" />
+              </div>
+              <div class="">
+                <label for="email">Adresse mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="exemple@gmail.com"
+                />
+              </div>
+              <div class="">
+                <label for="msg">Message</label>
+                <textarea id="msg" placeholder="Votre Message"></textarea>
+              </div>
+              <button class="btn btn-filled ml-auto">Me l'envoyer</button>
+            </form>
+          </div>
+          <div
+            class="dark:bg-gray-700 bg-white py-12 px-7 md:absolute lg:-right-9 right-28 rounded-xl shadow-xl md:w-2/5 h-5/6 top-28 w-full mx-auto"
+          >
+            <h3 class="font-semibold text-2xl border-b pb-4 border-gray-600">
+              Mes contacts et ma <br />Startup <span class="text-primary">.</span>
+            </h3>
+            <div class="py-4">
+              <p class="text-xs text-gray-400 leading-5">
+                Je suis à votre disposition pour échanger et vous apporter des solutions adaptées. 
+              </p>
+              <ul class="*:flex *:gap-4 *:items-center *:mt-4">
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <div>
+                    <h2>Dakar Sénégal</h2>
+                    <address class="text-xs">PGFQ+2CR, Rue LIB 160, Dakar 16000</address>
+                  </div>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>danichabakana@gmail.com</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <p>+221 78 586 80 33</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-globe"></i>
+                  <p><a href="https://dev-jophret-tech.pantheonsite.io/" target="_blank">www.Jophret-Tech.com</a></p>
+                </li>
+              </ul>
+              <div
+                class="flex items-center md:justify-end justify-center dark:text-gray-200 text-gray-600 gap-6 mt-9"
+              >
+                <p class="text-xs">Me suivre</p>
+                <div class="flex justify-end gap-3">
+                  <a href="https://github.com/bjd3355" class="social-icon">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/danicha-bakana-260388272/" class="social-icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://www.facebook.com/danicha.bakana.77/" class="social-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="dark:bg-slate-700 bg-slate-100 text-center py-2">
+      Copyright &copy; 2025
+      <ul class="flex-center gap-5 py-4 text-sm">
+        <li>
+          <a href="#home">Acceuil</a>
+        </li>
+        <li>
+          <a href="#about">A propos</a>
+        </li>
+        <li>
+          <a href="#parcours-scolaire">Scolarite et experiences</a>
+        </li>
+        <li>
+          <a href="#projects">Mes Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Me Contacter</a>
+        </li>
+      </ul>
+    </footer>
+    <script>
+      const header = document.querySelector("header");
+      const toggleClasses = (element, classes, condition) => {
+        classes.forEach((className) => {
+          element.classList.toggle(className, condition);
+        });
+      };
+
+      window.addEventListener("scroll", () => {
+        toggleClasses(
+          header,
+          [
+            "shadow-lg",
+            "dark:sm:bg-slate-900",
+            "dark:bg-slate-800",
+            "dark:text-white",
+            "bg-white",
+          ],
+          window.scrollY > 0
+        );
+      });
+    </script>
+    <!-- JavaScript pour gérer l'affichage des descriptions -->
+  <!-- Script JavaScript -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const buttons = document.querySelectorAll(".filter-btn");
+      const images = document.querySelectorAll(".image-item");
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", function () {
+          const filter = this.getAttribute("data-filter");
+
+          images.forEach((img) => {
+            if (filter === "all" || img.classList.contains(filter)) {
+              img.classList.remove("hidden");
+            } else {
+              img.classList.add("hidden");
+            }
+          });
+
+          // Mettre à jour l'apparence des boutons actifs
+          buttons.forEach((btn) => btn.classList.remove("btn-filled"));
+          this.classList.add("btn-filled");
+        });
+      });
+    });
+  </script>
+  </body>
+</html>
